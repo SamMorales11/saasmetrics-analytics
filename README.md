@@ -31,6 +31,10 @@ saasmetrics-analytics/
 ## 📊 Relational Data Schema
 Proyek ini meninggalkan pendekatan tabel tunggal datar (flat table) dan menggunakan skema relasional yang mencerminkan arsitektur data industri nyata:
 
-* **users: Menyimpan master data pelanggan (user_id, signup_date, segment [Startup, Growth, Enterprise]).
-* **transactions: Menyimpan histori pembayaran bulanan fixed-rate (transaction_id, user_id, transaction_date, amount).
-* **Optimasi Performa: Ditambahkan komposit INDEX pada transactions(user_id, transaction_date) untuk mempercepat eksekusi query analitik beruntun waktu.
+* **Users:** Menyimpan master data pelanggan (user_id, signup_date, segment [Startup, Growth, Enterprise]).
+* **Transactions:** Menyimpan histori pembayaran bulanan fixed-rate (transaction_id, user_id, transaction_date, amount).
+* **Optimasi Performa:** Ditambahkan komposit INDEX pada transactions(user_id, transaction_date) untuk mempercepat eksekusi query analitik beruntun waktu.
+
+## 📈 Executive Dashboard Preview
+<img width="1198" height="410" alt="Screenshot 2026-06-14 212912" src="https://github.com/user-attachments/assets/08760d20-6fb3-4a7d-b15b-f3882f1e440c" />
+
