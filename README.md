@@ -55,3 +55,12 @@ Melalui filter interaktif pada dasbor, ditemukan bahwa pelanggan dengan skala pa
 
 * **Early Warning System (EWS) untuk Customer Success:** Tim Data Analytics merekomendasikan pembuatan metrik pemicu (trigger metric) jika aktivitas transaksi pengguna melambat pada minggu ketiga, sehingga tim Customer Success dapat melakukan intervensi sebelum terjadi pembatalan otomatis (churn).
 
+## 🏁 Langkah Terakhir di Terminal (Push Perubahan)
+
+Setelah kamu menyimpan file `README.md` di atas, buka terminal VS Code kamu lagi dan ketik perintah berikut untuk mengirimkan hasil final dasbor dan dokumentasi lengkap ini ke GitHub:
+
+```bash
+git add .
+git commit -m "docs: finalize professional README with complete business insights"
+git push origin main
+```
