@@ -27,3 +27,10 @@ saasmetrics-analytics/
 │   └── export_processed_data.py  # Ekstraktor hasil query dari cloud ke lokal
 └── README.md                     # Dokumentasi utama proyek
 ```
+
+## 📊 Relational Data Schema
+Proyek ini meninggalkan pendekatan tabel tunggal datar (flat table) dan menggunakan skema relasional yang mencerminkan arsitektur data industri nyata:
+
+* **users: Menyimpan master data pelanggan (user_id, signup_date, segment [Startup, Growth, Enterprise]).
+* **transactions: Menyimpan histori pembayaran bulanan fixed-rate (transaction_id, user_id, transaction_date, amount).
+* **Optimasi Performa: Ditambahkan komposit INDEX pada transactions(user_id, transaction_date) untuk mempercepat eksekusi query analitik beruntun waktu.
