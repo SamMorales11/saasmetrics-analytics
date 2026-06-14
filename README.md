@@ -38,3 +38,20 @@ Proyek ini meninggalkan pendekatan tabel tunggal datar (flat table) dan mengguna
 ## 📈 Executive Dashboard Preview
 <img width="1198" height="410" alt="Screenshot 2026-06-14 212912" src="https://github.com/user-attachments/assets/08760d20-6fb3-4a7d-b15b-f3882f1e440c" />
 
+## 🎯 Deep-Dive Business Insights
+## 1. Sindrom Ember Bocor (The Leaky Bucket Syndrome)
+Meskipun data finansial bulanan menunjukkan pertumbuhan Monthly Recurring Revenue (MRR) yang sangat agresif (melonjak dari $16,537 pada Januari menjadi $81,335 pada Juni, dengan pertumbuhan tertinggi 61.56% di bulan April), analisis kohort mikro membongkar adanya masalah besar. Perusahaan mengalami kehilangan rata-rata 15% hingga 24% pelanggan baru hanya dalam 30 hari pertama (M0 ke M1). Pertumbuhan makro yang masif selama ini mendominasi dan menutupi tingkat gross churn yang mengkhawatirkan tersebut.
+
+## 2. Anomali Sukses Kohort April
+Kohort April 2025 menonjol sebagai performa terbaik sepanjang tahun. Selain mencatatkan volume akuisisi tertinggi (95 perusahaan baru), kohort ini mencatatkan tingkat retensi bulan pertama (M1) tertinggi, yaitu 87.4%.
+
+## 3. Kerentanan Segmen Pelanggan
+Melalui filter interaktif pada dasbor, ditemukan bahwa pelanggan dengan skala paket 'Startup' mengalami penurunan retensi tercepat di 90 hari pertama, sementara segmen 'Enterprise' menunjukkan tingkat loyalitas yang sangat tinggi dengan retensi stabil di atas 90%.
+
+##💡 Actionable Strategic Recommendations
+Re-onboarding Strategy untuk Segmen Startup: Tim Produk harus merombak alur 30 hari pertama pengguna baru. Diperlukan implementasi panduan interaktif (in-app interactive guidelines) untuk mempercepat Time-to-Value agar pelanggan dari skala Startup dapat segera merasakan manfaat produk sebelum siklus tagihan bulan kedua berjalan.
+
+Audit Kanal Pemasaran April: Tim Pemasaran wajib melakukan audit mendalam terhadap kampanye yang berjalan di bulan April. Karakteristik audiens dan kanal yang digunakan pada bulan tersebut harus diduplikasi karena terbukti berhasil menjaring pelanggan dengan tingkat loyalitas tinggi (High-Value Customers).
+
+Early Warning System (EWS) untuk Customer Success: Tim Data Analytics merekomendasikan pembuatan metrik pemicu (trigger metric) jika aktivitas transaksi pengguna melambat pada minggu ketiga, sehingga tim Customer Success dapat melakukan intervensi sebelum terjadi pembatalan otomatis (churn).
+
