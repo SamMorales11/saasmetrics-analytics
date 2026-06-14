@@ -48,7 +48,7 @@ Kohort April 2025 menonjol sebagai performa terbaik sepanjang tahun. Selain menc
 ## 3. Kerentanan Segmen Pelanggan
 Melalui filter interaktif pada dasbor, ditemukan bahwa pelanggan dengan skala paket 'Startup' mengalami penurunan retensi tercepat di 90 hari pertama, sementara segmen 'Enterprise' menunjukkan tingkat loyalitas yang sangat tinggi dengan retensi stabil di atas 90%.
 
-##💡 Actionable Strategic Recommendations
+## 💡 Actionable Strategic Recommendations
 Re-onboarding Strategy untuk Segmen Startup: Tim Produk harus merombak alur 30 hari pertama pengguna baru. Diperlukan implementasi panduan interaktif (in-app interactive guidelines) untuk mempercepat Time-to-Value agar pelanggan dari skala Startup dapat segera merasakan manfaat produk sebelum siklus tagihan bulan kedua berjalan.
 
 Audit Kanal Pemasaran April: Tim Pemasaran wajib melakukan audit mendalam terhadap kampanye yang berjalan di bulan April. Karakteristik audiens dan kanal yang digunakan pada bulan tersebut harus diduplikasi karena terbukti berhasil menjaring pelanggan dengan tingkat loyalitas tinggi (High-Value Customers).
