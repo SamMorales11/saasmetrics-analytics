@@ -57,7 +57,7 @@ Melalui filter interaktif pada dasbor, ditemukan bahwa pelanggan dengan skala pa
 
 ## 🏁 Langkah Terakhir di Terminal (Push Perubahan)
 
-Setelah menyimpan file `README.md` di atas, buka terminal VS Code kamu lagi dan ketik perintah berikut untuk mengirimkan hasil final dasbor dan dokumentasi lengkap ini ke GitHub:
+Setelah menyimpan file `README.md` di atas, buka terminal VS Code dan ketik perintah berikut untuk mengirimkan hasil final dashboard dan dokumentasi lengkap ini ke GitHub:
 
 ```bash
 git add .
