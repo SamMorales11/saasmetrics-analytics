@@ -1,13 +1,13 @@
 # SaaSMetrics: B2B SaaS User Cohort Retention & Churn Analysis for Revenue Optimization
 
 ## 📌 Project Overview
-SaaSMetrics adalah proyek portofolio tingkat industri (*enterprise-grade*) yang berfokus penuh pada **Pure Data Analytics & Analytics Engineering**. Proyek ini mensimulasikan peran sebagai Senior Data Analyst dalam menganalisis data transaksi dari 1,000 pelanggan B2B SaaS sepanjang tahun 2025 untuk mengidentifikasi pola retensi pengguna menggunakan metode **Time-Based Cohort Analysis**, menghitung metrik finansial utama (MRR, Churn Rate, & CLV), serta merumuskan rekomendasi bisnis strategis untuk menekan angka kehilangan pelanggan (*revenue leakage*).
+SaaSMetrics is an enterprise-grade portfolio project dedicated to Pure Data Analytics & Analytics Engineering. Simulating the responsibilities of a Senior Data Analyst, this project analyzes transactional data from 1,000 B2B SaaS customers across 2025 to uncover user retention trends through Time-Based Cohort Analysis. Furthermore, it evaluates critical SaaS unit economics—specifically MRR, Churn Rate, and CLV—to deliver data-driven, strategic business recommendations aimed at minimizing revenue leakage.
 
 ## 🛠️ Tech Stack & Architecture
-* **Data Generation:** Python (Pandas & NumPy) untuk membuat mock-dataset transaksi SaaS relasional yang memiliki pola *decay* realistis.
-* **Database & Cloud Infrastructure:** Neon.tech (Cloud Serverless PostgreSQL) untuk pengelolaan skema DDL, indeksasi, dan visualisasi *live-connection*.
-* **Analytics Engine:** SQL (Advanced CTEs, Window Functions `FIRST_VALUE` & `LAG()`, serta *Conditional Aggregation* untuk pivot matriks).
-* **Business Intelligence Tool:** Google Looker Studio untuk perancangan dasbor interaktif bergaya *Sanctuary Modern*.
+* **Data Generation:** Python (Pandas & NumPy) utilized to synthesize a relational SaaS transactional mock-dataset embedded with realistic decay patterns.
+* **Database & Cloud Infrastructure:** Neon.tech (Serverless Cloud PostgreSQL) deployed for DDL schema management, indexing optimization, and enabling real-time live-connection analytics.
+* **Analytics Engine:** SQL (leveraging Advanced CTEs, Window Functions such as `FIRST_VALUE` and `LAG()`, and Conditional Aggregation to dynamically pivot the cohort matrix).
+* **Business Intelligence Tool:** Google Looker Studio used to architect an interactive executive dashboard styled with a clean and professional *Sanctuary Modern* aesthetic.
 
 ---
 
