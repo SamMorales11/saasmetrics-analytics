@@ -49,11 +49,11 @@ The April 2025 cohort stands out as the top performer of the year. In addition t
 Utilizing the interactive dashboard filters reveals that customer retention decays fastest within the first 90 days among users in the 'Startup' tier. Conversely, the 'Enterprise' segment demonstrates exceptional long-term loyalty, maintaining a highly stable retention rate consistently above 90%.
 
 ## 💡 Actionable Strategic Recommendations
-* **Re-onboarding Strategy untuk Segmen Startup:** Tim Produk harus merombak alur 30 hari pertama pengguna baru. Diperlukan implementasi panduan interaktif (in-app interactive guidelines) untuk mempercepat Time-to-Value agar pelanggan dari skala Startup dapat segera merasakan manfaat produk sebelum siklus tagihan bulan kedua berjalan.
+* **Re-onboarding Strategy untuk Segmen Startup:** The Product Team must overhaul the initial 30-day new user journey. Implementing in-app interactive guidelines is essential to accelerate Time-to-Value (TTV), ensuring that Startup-tier customers immediately realize product value before the second monthly billing cycle commences.
 
-* **Audit Kanal Pemasaran April:** Tim Pemasaran wajib melakukan audit mendalam terhadap kampanye yang berjalan di bulan April. Karakteristik audiens dan kanal yang digunakan pada bulan tersebut harus diduplikasi karena terbukti berhasil menjaring pelanggan dengan tingkat loyalitas tinggi (High-Value Customers).
+* **Audit Kanal Pemasaran April:** The Marketing Team should conduct a comprehensive audit of the campaigns executed during April. The audience characteristics and acquisition channels deployed that month must be replicated, as they have proven highly effective in capturing High-Value Customers (HVCs).
 
-* **Early Warning System (EWS) untuk Customer Success:** Tim Data Analytics merekomendasikan pembuatan metrik pemicu (trigger metric) jika aktivitas transaksi pengguna melambat pada minggu ketiga, sehingga tim Customer Success dapat melakukan intervensi sebelum terjadi pembatalan otomatis (churn).
+* **Early Warning System (EWS) untuk Customer Success:** The Data Analytics team recommends engineering a predictive trigger metric to flag users whose transactional activity decelerates by the third week. This enables the Customer Success team to proactively intervene and mitigate involuntary or automated churn.
 
 ## 🏁 Langkah Terakhir di Terminal (Push Perubahan)
 
