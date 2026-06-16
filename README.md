@@ -39,14 +39,14 @@ Proyek ini meninggalkan pendekatan tabel tunggal datar (flat table) dan mengguna
 <img width="1198" height="410" alt="Screenshot 2026-06-14 212912" src="https://github.com/user-attachments/assets/08760d20-6fb3-4a7d-b15b-f3882f1e440c" />
 
 ## 🎯 Deep-Dive Business Insights
-## 1. Sindrom Ember Bocor (The Leaky Bucket Syndrome)
-Meskipun data finansial bulanan menunjukkan pertumbuhan Monthly Recurring Revenue (MRR) yang sangat agresif (melonjak dari $16,537 pada Januari menjadi $81,335 pada Juni, dengan pertumbuhan tertinggi 61.56% di bulan April), analisis kohort mikro membongkar adanya masalah besar. Perusahaan mengalami kehilangan rata-rata 15% hingga 24% pelanggan baru hanya dalam 30 hari pertama (M0 ke M1). Pertumbuhan makro yang masif selama ini mendominasi dan menutupi tingkat gross churn yang mengkhawatirkan tersebut.
+## 1. The Leaky Bucket Syndrome
+While monthly financial metrics indicate aggressive Monthly Recurring Revenue (MRR) growth—surging from $16,537 in January to $81,335 in June, peaking with a 61.56% MoM growth rate in April—micro-cohort analysis exposes a critical underlying vulnerability. The company suffers an average drop-off of 15% to 24% of new users within their first 30 days (`M0` to `M1`). This massive macro-level revenue growth has heavily masked an alarming underlying gross churn rate.
 
-## 2. Anomali Sukses Kohort April
-Kohort April 2025 menonjol sebagai performa terbaik sepanjang tahun. Selain mencatatkan volume akuisisi tertinggi (95 perusahaan baru), kohort ini mencatatkan tingkat retensi bulan pertama (M1) tertinggi, yaitu 87.4%.
+## 2. The April Cohort Anomaly
+The April 2025 cohort stands out as the top performer of the year. In addition to driving the highest acquisition volume with 95 new company registrations, this specific cohort achieved the highest month-one (`M1`) retention rate at 87.4%.
 
-## 3. Kerentanan Segmen Pelanggan
-Melalui filter interaktif pada dasbor, ditemukan bahwa pelanggan dengan skala paket 'Startup' mengalami penurunan retensi tercepat di 90 hari pertama, sementara segmen 'Enterprise' menunjukkan tingkat loyalitas yang sangat tinggi dengan retensi stabil di atas 90%.
+## 3. Customer Segment Vulnerabilities
+Utilizing the interactive dashboard filters reveals that customer retention decays fastest within the first 90 days among users in the 'Startup' tier. Conversely, the 'Enterprise' segment demonstrates exceptional long-term loyalty, maintaining a highly stable retention rate consistently above 90%.
 
 ## 💡 Actionable Strategic Recommendations
 * **Re-onboarding Strategy untuk Segmen Startup:** Tim Produk harus merombak alur 30 hari pertama pengguna baru. Diperlukan implementasi panduan interaktif (in-app interactive guidelines) untuk mempercepat Time-to-Value agar pelanggan dari skala Startup dapat segera merasakan manfaat produk sebelum siklus tagihan bulan kedua berjalan.
