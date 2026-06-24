@@ -1,7 +1,7 @@
 # SaaSMetrics: B2B SaaS User Cohort Retention & Churn Analysis for Revenue Optimization
 
 ## 📌 Project Overview
-SaaSMetrics is an enterprise-grade portfolio project dedicated to Pure Data Analytics & Analytics Engineering. Simulating the responsibilities of a Senior Data Analyst, this project analyzes transactional data from 1,000 B2B SaaS customers across 2025 to uncover user retention trends through Time-Based Cohort Analysis. Furthermore, it evaluates critical SaaS unit economics—specifically MRR, Churn Rate, and CLV—to deliver data-driven, strategic business recommendations aimed at minimizing revenue leakage.
+SaaSMetrics is an enterprise-grade portfolio project dedicated to Pure Data Analytics & Analytics Engineering. Simulating the responsibilities of a Senior Data Analyst, this project analyzes transactional data from 1,000 B2B SaaS customers across 2025 to uncover user retention trends through Time-Based Cohort Analysis. Furthermore, it evaluates critical SaaS unit economics specifically MRR, Churn Rate, and CLV to deliver data-driven, strategic business recommendations aimed at minimizing revenue leakage.
 
 ## 🛠️ Tech Stack & Architecture
 * **Data Generation:** Python (Pandas & NumPy) utilized to synthesize a relational SaaS transactional mock-dataset embedded with realistic decay patterns.
@@ -40,7 +40,7 @@ Proyek ini meninggalkan pendekatan tabel tunggal datar (flat table) dan mengguna
 
 ## 🎯 Deep-Dive Business Insights
 ## 1. The Leaky Bucket Syndrome
-While monthly financial metrics indicate aggressive Monthly Recurring Revenue (MRR) growth—surging from $16,537 in January to $81,335 in June, peaking with a 61.56% MoM growth rate in April—micro-cohort analysis exposes a critical underlying vulnerability. The company suffers an average drop-off of 15% to 24% of new users within their first 30 days (`M0` to `M1`). This massive macro-level revenue growth has heavily masked an alarming underlying gross churn rate.
+While monthly financial metrics indicate aggressive Monthly Recurring Revenue (MRR) growth surging from $16,537 in January to $81,335 in June, peaking with a 61.56% MoM growth rate in April micro cohort analysis exposes a critical underlying vulnerability. The company suffers an average drop off of 15% to 24% of new users within their first 30 days (`M0` to `M1`). This massive macro level revenue growth has heavily masked an alarming underlying gross churn rate.
 
 ## 2. The April Cohort Anomaly
 The April 2025 cohort stands out as the top performer of the year. In addition to driving the highest acquisition volume with 95 new company registrations, this specific cohort achieved the highest month-one (`M1`) retention rate at 87.4%.
@@ -49,9 +49,9 @@ The April 2025 cohort stands out as the top performer of the year. In addition t
 Utilizing the interactive dashboard filters reveals that customer retention decays fastest within the first 90 days among users in the 'Startup' tier. Conversely, the 'Enterprise' segment demonstrates exceptional long-term loyalty, maintaining a highly stable retention rate consistently above 90%.
 
 ## 💡 Actionable Strategic Recommendations
-* **Re-onboarding Strategy untuk Segmen Startup:** The Product Team must overhaul the initial 30-day new user journey. Implementing in-app interactive guidelines is essential to accelerate Time-to-Value (TTV), ensuring that Startup-tier customers immediately realize product value before the second monthly billing cycle commences.
+* **Re-onboarding Strategy untuk Segmen Startup:** The Product Team must overhaul the initial 30 day new user journey. Implementing in app interactive guidelines is essential to accelerate Time to Value (TTV), ensuring that Startup-tier customers immediately realize product value before the second monthly billing cycle commences.
 
-* **Audit Kanal Pemasaran April:** The Marketing Team should conduct a comprehensive audit of the campaigns executed during April. The audience characteristics and acquisition channels deployed that month must be replicated, as they have proven highly effective in capturing High-Value Customers (HVCs).
+* **Audit Kanal Pemasaran April:** The Marketing Team should conduct a comprehensive audit of the campaigns executed during April. The audience characteristics and acquisition channels deployed that month must be replicated, as they have proven highly effective in capturing High Value Customers (HVCs).
 
 * **Early Warning System (EWS) untuk Customer Success:** The Data Analytics team recommends engineering a predictive trigger metric to flag users whose transactional activity decelerates by the third week. This enables the Customer Success team to proactively intervene and mitigate involuntary or automated churn.
 
